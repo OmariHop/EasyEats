@@ -1,5 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
 .backgroundImg {
-  background-image: url("./bg.png");
+  background-image: url("C: \Users\ohopk\OneDrive\Documents\vsProjects\EZEatzV2\EasyEats\dui9g3_1\public\bg.png");
   /* linear-gradient: (360deg, #23262c 30%, rgba(23, 26, 33, 0.6) 100%); */
   /* Full height */
   height: 100vh;
