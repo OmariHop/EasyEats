@@ -1,0 +1,74 @@
+.background{
+    background-color: #121616;
+    height: 100vh;
+    font-family: Poppins;
+    color: white;
+    
+
+}
+
+.mainLayoutPosition{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.mainLayout{
+    position: relative;
+    display: flex;
+
+    margin-left: 2%;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+
+.mainLayout h1{
+    font-size: 64px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    transform: translateY(-20%);
+
+}
+
+.mainLayout p{
+
+    font-weight: semi-bold;
+    font-size: 20px;
+    width: 75%;
+    text-align: justify;
+    margin-bottom: 20px;
+
+}
+
+.mainLayout button{
+    background-color: transparent;
+    border: 3px solid #09814A;
+    border-radius: 10px;
+    transform: translateY(30%);
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    
+
+}
+
+.mainLayout button:hover{
+    background-color: #09814A;
+    transform: scale(1.05);
+
+}
+
+.canvas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+
+}
+
+.pictureLayout{
+    
+}

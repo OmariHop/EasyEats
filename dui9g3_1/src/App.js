@@ -8,6 +8,7 @@ import Step2 from "./Step2";
 import Step3 from "./Step3";
 import { useState } from "react";
 
+
 export default function App() {
   const [currentPage, setCurrentPage] = useState(0);
   const [firstStepOption, setFirstStepOption] = useState("initial");
