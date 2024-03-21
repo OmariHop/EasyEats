@@ -1,11 +1,17 @@
 import React from "react";
 import "./Step1.css";
+import "./HomePage.css";
+import Navbar from "./components/navbar";
+import GreenBottomBorder from "./components/greenBottomBorder";
 
 export default function Step1({ setValue, nextPage }) {
   return (
-    <div>
-      <h1>Ez Eats</h1>
-      <button
+    
+    <div className="background">
+      <Navbar/>
+      <div className="mainSelectionLayout">
+        <h1>What is your dietary preferance?</h1>
+      <button className="veganOption"
         onClick={() => {
           setValue("vegan");
           nextPage();
@@ -13,7 +19,7 @@ export default function Step1({ setValue, nextPage }) {
       >
         Vegan
       </button>
-      <button
+      <button className="vegetarianOption"
         onClick={() => {
           setValue("vegetarian");
           nextPage();
@@ -21,14 +27,18 @@ export default function Step1({ setValue, nextPage }) {
       >
         Vegetarian
       </button>
-      <button
+      <button className="noRestrictionsOption"
         onClick={() => {
           setValue("normal");
           nextPage();
         }}
       >
-        Normal
+        No Restrictions
       </button>
+
+      </div>
+      <GreenBottomBorder/>
     </div>
+
   );
 }

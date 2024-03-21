@@ -1,18 +1,94 @@
-button {
-  font-size: 20px;
-  padding: 10px 20px;
-  margin: 10px;
-  background-color: green;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+
+
+.headingLayout{
+  transform: translateY(250%);
+  align-items: center;
+  align-content: center;
+  font-weight: bold;
+  font-size: 30px;
+
+
 }
 
-button:hover {
-  background-color: darkgreen;
+.countryLayout{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  transform: translateY(70%);
+  transform: translateX(50%);
+
+  row-gap: 100px;
+  width: 50%;
+
+  
+  
 }
 
-button:active {
-  background-color: yellowgreen;
+.countryLayout h1{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.countryLayout button{
+  width: 75%;
+  height: 180%;
+  margin-bottom: 30px;
+  font-size: 16px;
+  transform: translateY(150%);
+
+
+}
+
+.countryLayout button:hover{
+  background-color: #09814A;
+}
+
+.countryLayout button p{
+  text-align: center;
+  transform: translateY(-350%);
+}
+
+.mexicoOption{
+  background-image: url('images/mexico.png');
+  background-size: cover;
+  
+}
+
+.chinaOption{
+  background-image: url('images/china.png');
+  background-size: cover;
+}
+
+.americaOption{
+  background-image: url('images/america.png');
+  background-size: cover;
+}
+
+.italyOption{
+  background-image: url('images/italy.png');
+  background-size: cover;
+}
+
+.koreaOption{
+  background-image: url('images/korea.png');
+  background-size: cover;
+}
+.philippinesOption{
+  background-image: url('images/philippines.png');
+  background-size: cover;
+}
+
+.indiaOption{
+  background-image: url('images/india.png');
+  background-size: cover;
+}
+
+.jamaicaOption{
+  background-image: url('images/jamaica.png');
+  background-size: cover;
+}
+
+.japanOption{
+  background-image: url('images/japan.png');
+  background-size: cover;
 }

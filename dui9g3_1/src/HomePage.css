@@ -1,3 +1,5 @@
+
+
 .background{
     background-color: #121616;
     height: 100vh;
@@ -50,7 +52,9 @@
     border-radius: 10px;
     transform: translateY(30%);
     transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
-    
+    width: 20%;
+    height: 20%;
+
 
 }
 
@@ -58,6 +62,12 @@
     background-color: #09814A;
     transform: scale(1.05);
 
+}
+
+
+.homepageButton button{
+
+    
 }
 
 .canvas{
@@ -69,6 +79,95 @@
 
 }
 
+
 .pictureLayout{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+ 
+
+
+}
+
+
+.EasyEatsIcon{
+    position: absolute;
+    font-size: 32px;
+    font-weight: bold;
+    width: 50%;
+    left: 0px;
+}
+
+
+.Navbar{
+    position: absolute;
+    font-weight: semi-bold;
+    top: 20px;
+
+}
+
+.Navbar ul{
+    transform: translateX(250%);
+
+}
+
+.Navbar ul li{
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 100px;
     
+
+}
+
+.Navbar ul li:hover{
+    color: #09814A;
+    transition: color 0.3s ease-in-out;
+    transform: scale(1.10);
+}
+
+.GreenBottomBorder{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-bottom: 30px solid #09814A;
+
+}
+
+
+.BurgerIcon {
+    background-image: url(./images/burger.png);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    transform: translate(620px, 250px);
+    /* Adjusted */
+}
+
+.ChiliIcon {
+    background-image: url(./images/chiliMan.png);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    transform: translate(350px, -75px);
+    /* Adjusted */
+}
+
+.SeaFoodIcon {
+    background-image: url(./images/seaFoodPlatter.png); 
+    background-size: cover;
+    width: 275px; 
+    height: 275px; 
+    transform: translate(250px, -50px); 
+}
+.CookieIcon {
+    background-image: url(./images/cookies.png);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    transform: translate(700px, -350px);
+    /* Adjusted */
 }

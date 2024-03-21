@@ -35,36 +35,6 @@
   border-radius: 20px;
 }
 
-.vegeterianOption {
-  position: absolute;
-  width: 235px;
-  height: 437px;
-  left: 260px;
-  top: 393px;
-
-  opacity: 0.85;
-  border-radius: 80px;
-}
-
-.veganOption {
-  position: absolute;
-  width: 235px;
-  height: 437px;
-  left: 602px;
-  top: 393px;
-
-  border-radius: 80px;
-}
-
-NAoption {
-  position: absolute;
-  width: 235px;
-  height: 437px;
-  left: 944px;
-  top: 393px;
-
-  border-radius: 80px;
-}
 
 .mainPageHeader {
   /* What are your dietary restrictions? */

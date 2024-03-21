@@ -1,82 +1,91 @@
 import React from "react";
 import "./Step2.css";
+import "./HomePage.css";
+import Navbar from "./components/navbar";
+import GreenBottomBorder from "./components/greenBottomBorder";
 
 export default function Step2({ setValue, nextPage }) {
   return (
-    <div>
-      <h1>Regional Food</h1>
-      <button
+    <div className="background">
+      <Navbar />
+      <div className="headingLayout">
+        <h1>Choose one of the following cultures</h1>
+           </div>
+      <div className="countryLayout">
+      <button className="mexicoOption"
         onClick={() => {
           setValue("mexico");
           nextPage();
         }}
       >
-        Mexico
+        <p>Mexico</p>
       </button>
-      <button
+      <button className="chinaOption"
         onClick={() => {
           setValue("china");
           nextPage();
         }}
       >
-        China
+        <p>China</p>
       </button>
-      <button
+      <button className="americaOption"
         onClick={() => {
           setValue("america");
           nextPage();
         }}
       >
-        America
+        <p>America</p>
       </button>
-      <button
+      <button className="italyOption"
         onClick={() => {
           setValue("italy");
           nextPage();
         }}
       >
-        Italy
+        <p>Italy</p>
       </button>
-      <button
+      <button className="koreaOption"
         onClick={() => {
           setValue("korea");
           nextPage();
         }}
       >
-        Korea
+        <p>Korea</p>
       </button>
-      <button
+      <button className="philippinesOption"
         onClick={() => {
           setValue("philipines");
           nextPage();
         }}
       >
-        Philipines
+        <p>Philipines</p>
       </button>
-      <button
+      <button className="indiaOption"
         onClick={() => {
           setValue("india");
           nextPage();
         }}
       >
-        India
+        <p>India</p>
       </button>
-      <button
+      <button  className="jamaicaOption"
         onClick={() => {
           setValue("jamaica");
           nextPage();
         }}
       >
-        Jamaica
+        <p>Jamaica</p>
       </button>
-      <button
+      <button className="japanOption"
         onClick={() => {
           setValue("japan");
           nextPage();
         }}
       >
-        Japan
+        <p>Japan</p>
       </button>
+      </div>
+      <GreenBottomBorder />
     </div>
   );
 }
